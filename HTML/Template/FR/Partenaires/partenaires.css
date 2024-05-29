@@ -1,0 +1,55 @@
+.eael-tab-item-trigger {
+    border: solid 1px black;
+}
+
+ul li {
+    margin: 0px 10px !important;
+}
+
+.logoPartenaires {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+
+.logoPartenaires div {
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    transition: 1s all;
+    position: relative;
+}
+
+.logoPartenaires div img {
+    width: 150px;
+}
+
+.PrezPartenaires{
+display: none;
+}
+
+.InfoPartenaire:hover .PrezPartenaires{
+display: block;
+padding: 5px 10px;
+}
+
+.InfoPartenaire:hover img{
+display: none;
+}
+
+@media screen and (max-width : 800px) {
+
+    .eael-tab-inline-icon {
+        display: grid;
+        grid-template-columns: fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .eael-tabs-nav li {
+        max-width: 200px;
+    }
+    
+}
+
+   

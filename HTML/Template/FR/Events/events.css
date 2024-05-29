@@ -1,0 +1,206 @@
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.contenair-right {
+    border-left: 1px solid black;
+    height: 400px;
+}
+
+.imgEvent,
+.imgParfums,
+.imgEventId2 {
+    border-bottom: 1px solid black;
+}
+
+#Dispo2 .eael-accordion-tab-title h3:hover {
+    color: white !important
+}
+
+#imgUplift {
+    background: url("/wp-content/uploads/2023/11/Uplift.jpg") center/cover;
+}
+
+#imgUnder {
+    background: url("/wp-content/uploads/2023/11/BK-UP-2.jpg") center/cover;
+}
+
+#imgRetail {
+    background: url("/wp-content/uploads/2023/11/RetailTech.png") center/cover;
+}
+
+#imgParfums {
+    background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-20.jpg") center/cover;
+}
+
+
+#imgEventId {
+    background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-21.jpg") center/cover;
+}
+
+#imgEventId2 {
+    background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-22.jpg") center/cover;
+}
+
+.paragraphe {
+    width: 50%;
+    padding: 30px 0px 0px 30px;
+
+}
+
+.imgEvent {
+    width: 500px !important;
+    height: 300px
+}
+
+.eael-adv-accordion .eael-accordion-list .eael-accordion-content {
+    border: solid 1px black;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.42);
+
+}
+
+.eael-accordion-tab-title {
+    font-size: 0px !important;
+}
+
+.paragraphe a {
+    color: black;
+    font-weight: bold;
+}
+
+.miseEnForme {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.miseEnForme img {
+    width: 400px !important;
+    height: 400px !important;
+    object-fit: cover;
+    background-position: center;
+}
+
+
+.eael-adv-accordion .eael-accordion-list .eael-accordion-content {
+    border: solid 1px black;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.42);
+    padding: 0px !important
+}
+
+.elementor-tab-title {
+    background-color: transparent !important;
+}
+
+.elementor-tab-title:hover {
+    background-color: black !important;
+}
+
+.elementor-13098 .elementor-element.elementor-element-b767936 .eael-adv-accordion .eael-accordion-list .eael-accordion-header.active .fa-accordion-icon {
+    color: black !important;
+}
+
+.elementor-13098 .elementor-element.elementor-element-b767936 .eael-adv-accordion .eael-accordion-list .eael-accordion-header:hover .fa-accordion-icon {
+    color: white !important;
+}
+
+.breakfast {
+    height: 300px !important;
+}
+
+@media screen and (min-width : 320px) and (max-width : 500px) {
+    .miseEnForme {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenair-right {
+        width: 100%;
+        border-left:0;
+    }
+
+    .paragraphe {
+        margin: 0;
+        width: 100%;
+    }
+
+    .imgParfums,
+    .imgEvent,
+    .imgEvent2 {
+        max-width: 100%;
+        border: 0;
+    }
+
+    #imgUplift {
+        background: url("/wp-content/uploads/2023/11/Uplift.jpg") center/contain no-repeat;
+    }
+    
+    #imgUnder {
+        background: url("/wp-content/uploads/2023/11/BK-UP-2.jpg") center/contain no-repeat;
+    }
+    
+    #imgRetail {
+        background: url("/wp-content/uploads/2023/11/RetailTech.png") center/contain no-repeat;
+    }
+    
+    #imgParfums {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-20.jpg") center/contain no-repeat;
+    }
+    
+    
+    #imgEventId {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-21.jpg") center/contain no-repeat;
+    }
+    
+    #imgEventId2 {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-22.jpg") center/contain no-repeat;
+    }
+}
+
+
+
+@media screen and (min-width : 501px) and (max-width : 1300px) {
+    .contenair-right {
+        width: 40%;
+        border-left:0;
+    }
+
+    .paragraphe {
+        margin: 0 auto;
+        width: 55%;
+    }
+
+    .imgParfums,
+    .imgEvent,
+    .imgEvent2 {
+        max-width: 100%;
+        border: 0;
+    }
+
+    #imgUplift {
+        background: url("/wp-content/uploads/2023/11/Uplift.jpg") center/contain no-repeat;
+    }
+    
+    #imgUnder {
+        background: url("/wp-content/uploads/2023/11/BK-UP-2.jpg") center/contain no-repeat;
+    }
+    
+    #imgRetail {
+        background: url("/wp-content/uploads/2023/11/RetailTech.png") center/contain no-repeat;
+    }
+    
+    #imgParfums {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-20.jpg") center/contain no-repeat;
+    }
+    
+    
+    #imgEventId {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-21.jpg") center/contain no-repeat;
+    }
+    
+    #imgEventId2 {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-22.jpg") center/contain no-repeat;
+    }
+}

@@ -1,0 +1,216 @@
+.box {
+    display: flex;
+    align-items: start;
+}
+
+.news_date {
+    margin: 0;
+}
+
+.news_title {
+    font-weight: bold;
+    font-family: Rubik;
+    margin-bottom: 0px;
+    text-transform: uppercase
+}
+
+#Vivatech{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/03/Notify_News_Vivatech24.jpg") center/cover
+}
+
+#Wavestone{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/03/Notify_News_Wavestone24.jpg") center/cover
+}
+
+#PressionMkt
+{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/02/Notify_News_pression-marketing.jpg") center/cover
+}
+
+#SAP
+{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/02/Notify_News_SAP-store.jpg") center/cover
+}
+
+#Convers{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/02/Notify_News_conversationnel-marketing.jpg") center/cover
+}
+
+#Push {
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/01/New26012024.jpg") center/cover
+}
+
+#Mails {
+    background: url("/wp-content/uploads/2024/02/News-RD-Mails.jpg") center/cover
+}
+
+#Newyork {
+    background: url("/wp-content/uploads/2023/12/NRF-2024-1.jpeg") center/cover
+}
+
+#Porto {
+    background: url("/wp-content/uploads/2023/12/News-Seminaire-Porto.jpg") center/cover
+}
+
+#Insider {
+    background: url("/wp-content/uploads/2023/12/News-Webinar-AIisTheNewBlack.jpg") center/cover
+}
+
+
+#Under {
+    background: url("/wp-content/uploads/2023/12/News-Under-Pressure.jpg") center/cover
+}
+
+
+#Biarritz {
+    background: url("/wp-content/uploads/2023/12/News_Biarritz_AI.jpeg") center/cover
+}
+
+
+#Climat {
+    background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-26.jpg") center/cover
+}
+
+#Breakfast {
+    background: url("/wp-content/uploads/2023/08/1685436588842-1.png") center/cover
+}
+
+#BFM {
+    background: url("/wp-content/uploads/2023/08/BFM-TV.png") center/cover
+}
+
+#imgEventNotifyNatura {
+    background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-28.jpg") center/cover
+}
+
+.imgEvent {
+    width: 500px !important;
+    height: 300px;
+    border-bottom: 1px solid black;
+}
+
+.contenair-right {
+    border-left: 1px solid black;
+}
+
+
+.miseEnForme {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.miseEnForme img {
+    width: 400px !important;
+    height: 400px !important;
+    object-fit: contain;
+    background-position: center;
+}
+
+@media screen and (max-width : 1024px) {
+    .paragraphe {
+        width: 80% !important;
+        margin-bottom: 20px;
+    }
+
+    .imgEvent {
+        border-bottom: 0;
+    }
+
+    .contenair-right, .imgEvent {
+        max-width: 100%;
+        border-left: 0;
+    }
+
+    #Vivatech{
+        background: url("https://fr.notify-group.com/wp-content/uploads/2024/03/Notify_News_Vivatech24.jpg") center/contain no-repeat
+    }
+
+    #Wavestone{
+        background: url("https://fr.notify-group.com/wp-content/uploads/2024/03/Notify_News_Wavestone24.jpg") center/contain no-repeat
+    }
+
+#PressionMkt
+{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/02/Notify_News_pression-marketing.jpg") center/contain no-repeat
+}
+
+#SAP
+{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/02/Notify_News_SAP-store.jpg") center/contain no-repeat
+}
+
+#Convers{
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/02/Notify_News_conversationnel-marketing.jpg") center/contain no-repeat
+}
+
+#Push {
+    background: url("https://fr.notify-group.com/wp-content/uploads/2024/01/New26012024.jpg") center/contain no-repeat
+}
+
+    #Mails {
+        background: url("/wp-content/uploads/2024/02/News-RD-Mails.jpg") center/contain no-repeat
+    }
+
+    #Newyork {
+        background: url("/wp-content/uploads/2023/12/NRF-2024-1.jpeg") center/contain no-repeat
+    }
+
+    #Porto {
+        background: url("/wp-content/uploads/2023/12/News-Seminaire-Porto.jpg") center/contain no-repeat
+    }
+
+    #Insider {
+        background: url("/wp-content/uploads/2023/12/News-Webinar-AIisTheNewBlack.jpg") center/contain no-repeat
+    }
+
+
+    #Under {
+        background: url("/wp-content/uploads/2023/12/News-Under-Pressure.jpg") center/contain no-repeat
+    }
+
+
+    #Biarritz {
+        background: url("/wp-content/uploads/2023/12/News_Biarritz_AI.jpeg") center/contain no-repeat
+    }
+
+
+    #Climat {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-26.jpg") center/contain no-repeat
+    }
+
+    #Breakfast {
+        background: url("/wp-content/uploads/2023/08/1685436588842-1.png") center/contain no-repeat
+    }
+
+    #BFM {
+        background: url("/wp-content/uploads/2023/08/BFM-TV.png") center/cover
+    }
+
+    #imgEventNotifyNatura {
+        background: url("/wp-content/uploads/2023/08/MicrosoftTeams-image-28.jpg") center/cover
+    }
+}
+
+.paragraphe {
+    width: 50%;
+    padding: 30px 0px 30px 30px
+}
+
+.eael-adv-accordion .eael-accordion-list .eael-accordion-content {
+    border: solid 1px black;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.42);
+}
+
+.elementor-tab-title {
+    background-color: transparent !important;
+}
+
+.eael-adv-accordion .eael-accordion-list .eael-accordion-content {
+    padding: 0 !important;
+}
+
+.breakfast {
+    height: 300px !important;
+}
